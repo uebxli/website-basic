@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+/*---------フッター---------*/
+footer{
+  text-align: center;
+  background-color: #f2e7ce;
+  padding: 8px 0;
+}
+footer .footer{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+footer .address{
+  line-height: 8px;
+}
+footer .copyright{
+  margin-top: 50px;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

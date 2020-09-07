@@ -7,6 +7,52 @@ body {
   background-color: #fff;
 }
 
+/*---------予約フォーム----------*/
+form{
+  background-color: #d7eeff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom:  20px;
+}
+
+form input,form textarea{
+  background-color: darkgray;
+  border: none;
+}
+
+form div{
+  margin-top: 20px;
+ margin-bottom: 15px;
+}
+
+
+
+form button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+}
+
+
+.kozinzyoho{
+  width: 60%;
+  margin-bottom: 13px;
+}
+
+form textarea{
+  width: 52%;
+  height: 50px;
+  vertical-align: top;
+}
+
+
+.yoyaku{
+  width: 30px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
 /*---------フッター---------*/
 footer{
   text-align: center;

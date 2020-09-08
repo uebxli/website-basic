@@ -7,27 +7,73 @@ body {
   background-color: #fff;
 }
 
+/*--------客室、アメニティ--------*/
+h1 {
+  text-align: center;
+  font-size: 200%;
+}
+
+.room {
+  display: flex;
+  align-items: center;
+}
+
+.room img {
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.room p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-bottom: solid 1px gray;
+  font-size: 30px;
+}
+
+.room:nth-of-type(1) {
+  flex-direction: row;
+}
+
+
+.room:nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+
+.amenity {
+  clear: both;
+  background-color: rgba(221, 221, 221, 60);
+  text-align: center;
+}
+
+h2 {
+  font-size: 160%;
+}
+
 /*---------予約フォーム----------*/
-form{
+form {
   background-color: #d7eeff;
   text-align: center;
   padding-top: 20px;
-  padding-bottom:  20px;
+  padding-bottom: 20px;
 }
 
-form input,form textarea{
+form input,
+form textarea {
   background-color: darkgray;
   border: none;
 }
 
-form div{
+form div {
   margin-top: 20px;
- margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 
 
-form button{
+form button {
   background-color: black;
   color: white;
   border: none;
@@ -35,90 +81,41 @@ form button{
 }
 
 
-.kozinzyoho{
+.kozinzyoho {
   width: 60%;
   margin-bottom: 13px;
 }
 
-form textarea{
+form textarea {
   width: 52%;
   height: 50px;
   vertical-align: top;
 }
 
 
-.yoyaku{
+.yoyaku {
   width: 30px;
   margin: 5px;
   margin-bottom: 10px;
 }
 
 /*---------フッター---------*/
-footer{
+footer {
   text-align: center;
   background-color: #f2e7ce;
   padding: 8px 0;
 }
-footer .footer{
+
+footer .footer {
   font-size: 1.2rem;
   font-weight: bold;
 }
-footer .address{
+
+footer .address {
   line-height: 8px;
 }
-footer .copyright{
+
+footer .copyright {
   margin-top: 50px;
   font-size: 0.8rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

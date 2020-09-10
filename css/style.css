@@ -165,6 +165,7 @@ form textarea {
 
 /*---------フッター---------*/
 footer {
+  margin-top:200px; 
   text-align: center;
   background-color: #f2e7ce;
   padding: 8px 0;

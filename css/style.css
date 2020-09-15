@@ -116,6 +116,25 @@ h2 {
   font-size: 160%;
 }
 
+/*---------レストラン----------*/
+
+#restaurant {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#restaurant img{
+    width: 40%;
+    max-width: 300px;
+}
+
+.buffet p{
+    border-bottom: solid 1px gray;
+    margin-bottom: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 /*---------予約フォーム----------*/
 form {
   background-color: #d7eeff;

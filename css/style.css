@@ -21,6 +21,7 @@ header h1 {
   font-size: 50px;
   text-align: center;
   display: inline-block;
+  margin-left: 50px;
 }
 
 a {
@@ -36,7 +37,7 @@ ul a:hover {
 ul {
   width: 650px;
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-right: 30px;
 }
 
@@ -59,7 +60,7 @@ li {
   background-color: sandybrown;
   text-align: center;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 80px;
   
 }
 

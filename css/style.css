@@ -25,12 +25,12 @@ header h1 {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #9e9e9e;
 }
 
 ul a:hover {
   font-size: 35px;
-  color: darkgrey;
+  color: sandybrown;
 }
 
 ul {
@@ -108,10 +108,10 @@ h2 {
 
 .amenity {
   clear: both;
-  background-color: rgba(221, 221, 221, 60);
+/*  background-color: rgba(221, 221, 221, 60);*/
+  background-color: #ededed;
   text-align: center;
-  margin: 50px 0;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 h2 {
@@ -121,8 +121,7 @@ h2 {
 /*---------レストラン----------*/
 
 #restaurant {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin:100px 0;
     text-align: center;
 }
 
@@ -140,7 +139,7 @@ h2 {
 
 /*---------予約フォーム----------*/
 #booknow {
-  background-color: #d7eeff;
+/*  background-color: #d7eeff;*/
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -151,7 +150,9 @@ h2 {
 
 form input,
 form textarea {
-  background-color: darkgray;
+  background-color: 
+#d6d6d6
+;
   border: none;
 }
 
@@ -190,9 +191,9 @@ form textarea {
 
 /*---------フッター---------*/
 footer {
-  margin-top:200px; 
+  margin-top:100px; 
   text-align: center;
-  background-color: #f2e7ce;
+  background-color: #fff6d7;
   padding: 8px 0;
 }
 
@@ -214,7 +215,7 @@ footer .copyright {
 /*料金表*/
 #rate{
   text-align: center;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 table{
